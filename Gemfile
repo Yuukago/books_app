@@ -61,3 +61,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "awesome_print"
+
+# 画像アップデート機能
+gem "carrierwave", "~> 2.2", ">= 2.2.3"
+gem "mini_mime", "~> 1.0"
